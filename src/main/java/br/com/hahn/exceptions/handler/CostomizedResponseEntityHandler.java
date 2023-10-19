@@ -1,9 +1,8 @@
-package br.com.hahn.controllers.exceptions.handler;
+package br.com.hahn.exceptions.handler;
 
-import br.com.hahn.controllers.exceptions.ExceptionResponse;
-import br.com.hahn.controllers.exceptions.UnsupportedMathOperationException;
+import br.com.hahn.exceptions.ExceptionResponse;
+import br.com.hahn.exceptions.UnsupportedMathOperationException;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;

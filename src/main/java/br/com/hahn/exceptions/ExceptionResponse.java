@@ -1,4 +1,4 @@
-package br.com.hahn.controllers.exceptions;
+package br.com.hahn.exceptions;
 
 import java.io.Serial;
 import java.io.Serializable;
