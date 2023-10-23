@@ -1,10 +1,14 @@
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/postgres?useTimezone=true&serverTimezone=UTC
+    url: jdbc:postgresql://localhost:5432/baseDadosTest?useTimezone=true&serverTimezone=UTC
     username: postgres
     password: hahn
   jpa:
     show-sql: true
     hibernate:
       ddl-auto: update
+
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
